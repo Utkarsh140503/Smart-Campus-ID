@@ -1,0 +1,75 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+<!--        <item-->
+<!--            android:id="@+id/nav_my_info"-->
+<!--            android:title="My Info" />-->
+<!--        <item-->
+<!--            android:id="@+id/nav_course_enrollment"-->
+<!--            android:title="Course Enrollment" />-->
+        <item
+            android:id="@+id/nav_mark_attendance"
+            android:title="Give Attendance (GPS)" />
+
+        <item
+            android:id="@+id/nav_proctor"
+            android:title="Proctor" />
+<!--        <item-->
+<!--            android:id="@+id/nav_academics"-->
+<!--            android:title="Academics" />-->
+<!--        <item-->
+<!--            android:id="@+id/nav_research"-->
+<!--            android:title="Research" />-->
+<!--        <item-->
+<!--            android:id="@+id/nav_examination"-->
+<!--            android:title="Examination" />-->
+<!--        <item-->
+<!--            android:id="@+id/nav_services"-->
+<!--            android:title="Services" />-->
+<!--        <item-->
+<!--            android:id="@+id/nav_library"-->
+<!--            android:title="Library" />-->
+<!--        <item-->
+<!--            android:id="@+id/nav_bonafide"-->
+<!--            android:title="Bonafide" />-->
+<!--        <item-->
+<!--            android:id="@+id/nav_online_payment"-->
+<!--            android:title="Online Payment" />-->
+        <item
+            android:id="@+id/nav_hostels"
+            android:title="Hostels" />
+<!--        <item-->
+<!--            android:id="@+id/nav_receipt_book"-->
+<!--            android:title="Receipt Book" />-->
+<!--        <item-->
+<!--            android:id="@+id/nav_asc_fdp"-->
+<!--            android:title="ASC FPD" />-->
+
+<!--        <item-->
+<!--            android:id="@+id/nav_events"-->
+<!--            android:title="Events" />-->
+
+<!--        <item-->
+<!--            android:id="@+id/nav_swf_events"-->
+<!--            android:title="SWF Events" />-->
+
+        <item
+            android:id="@+id/nav_my_account"
+            android:title="My Account" />
+
+        <item
+            android:id="@+id/payment_history"
+            android:title="Payment History"/>
+
+        <item
+            android:title="Attendance Tracking"
+            android:id="@+id/attendance_tracking"/>
+
+        <item
+            android:id="@+id/RFIDGatePass"
+            android:title="RFID Gate Pass"/>
+
+        <item
+            android:id="@+id/credit"
+            android:title="Credits"/>
+    </group>
+</menu>

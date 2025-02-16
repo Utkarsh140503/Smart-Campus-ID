@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/vtopapp"
+    android:gravity="center">
+
+    <LinearLayout
+        android:id="@+id/layout0"
+        android:layout_width="wrap_content"
+        android:layout_height="158dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="26dp"
+        android:background="@drawable/backborder"
+        android:gravity="center"
+        android:padding="10dp"
+        android:visibility="invisible">
+
+        <ImageView
+            android:id="@+id/imageBox0"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="50px"
+            android:background="@drawable/whiteblack"
+            android:src="@drawable/vitlogo"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/textBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30px"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:text="VIT"
+            android:textColor="@color/black"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/textBox0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30px"
+            android:text="(Chennai Campus)"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:visibility="invisible" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textVTOP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout0"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="70px"
+        android:background="@drawable/blackkwhite"
+        android:padding="30px"
+        android:text="Smart Campus ID'"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/welcomeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/blackkwhite"
+        android:padding="30px"
+        android:text="Welcome to Smart ID App!"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:visibility="invisible" />
+
+</RelativeLayout>

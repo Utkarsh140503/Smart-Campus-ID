@@ -1,0 +1,34 @@
+<!-- activity_message_from_proctor.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MessageFromProctorActivity"
+    android:background="@drawable/vtopapp">
+
+    <TextView
+        android:id="@+id/textViewProctorID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Proctor ID: "
+        android:background="@drawable/whiteblack"
+        android:textColor="@color/black"
+        android:padding="40px"
+        android:layout_gravity="center"
+        android:textAlignment="center"/>
+
+    <ListView
+        android:id="@+id/messageListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="40px"
+        android:layout_marginRight="40px"
+        android:layout_marginBottom="40px"
+        android:padding="30px"
+        android:background="@drawable/whiteblack" />
+
+</LinearLayout>

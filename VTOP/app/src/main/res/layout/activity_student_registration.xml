@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/vtopapp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center_horizontal">
+
+    <!-- Top Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="30px"
+        android:layout_marginEnd="30px"
+        android:id="@+id/layout0"
+        android:background="@drawable/whiteblack">
+
+        <ImageView
+            android:id="@+id/imageBox0"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="50px"
+            android:background="@drawable/border"
+            android:src="@drawable/vitlogo" />
+
+        <TextView
+            android:id="@+id/textBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40px"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:text="VIT"
+            android:textColor="@color/black"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textBox0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(Chennai Campus)"
+            android:textColor="@color/black"
+            android:layout_marginStart="30px"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <!-- Registration Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="30px"
+        android:layout_marginEnd="30px"
+        android:background="@drawable/whiteblack">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VTOP Registration"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/editTextRFID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="RFID"
+            android:inputType="text"
+            android:padding="25px"
+            android:background="@drawable/border"/>
+
+        <EditText
+            android:id="@+id/editTextRegNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Registration Number"
+            android:inputType="text"
+            android:padding="25px"
+            android:background="@drawable/border"/>
+
+        <EditText
+            android:id="@+id/editTextMobNum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mobile Number"
+            android:inputType="number"
+            android:padding="25px"
+            android:background="@drawable/border"/>
+
+        <EditText
+            android:id="@+id/editTextParentName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Parent Name"
+            android:inputType="text"
+            android:layout_marginTop="16px"
+            android:padding="25px"
+            android:background="@drawable/border" />
+
+        <EditText
+            android:id="@+id/editTextParentEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Parent Email (e.g., example@gmail.com)"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="16px"
+            android:padding="25px"
+            android:background="@drawable/border" />
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:inputType="text"
+            android:layout_marginTop="16px"
+            android:padding="25px"
+            android:background="@drawable/border"/>
+
+        <EditText
+            android:id="@+id/editTextProctor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Proctor Name"
+            android:inputType="text"
+            android:layout_marginTop="16px"
+            android:padding="25px"
+            android:background="@drawable/border"/>
+
+        <EditText
+            android:id="@+id/editTextProctorEID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Proctor Employee ID"
+            android:inputType="text"
+            android:layout_marginTop="16px"
+            android:padding="25px"
+            android:background="@drawable/border"/>
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:layout_marginTop="16px"
+            android:padding="25px"
+            android:background="@drawable/border"/>
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/textViewAlreadyRegistered"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already Registered"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/textViewGoToHomePage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Go to Home Page"
+            android:textSize="16sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

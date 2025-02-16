@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Smart Campus ID</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string-array name="leave_types">
+        <item>WITH PARENTS LEAVE</item>
+        <item>OFFICIAL LEAVE</item>
+        <item>SUMMER VACATION</item>
+        <item>WINTER VACATION</item>
+        <item>HOME TOWN</item>
+        <item>EMERGENCY LEAVE</item>
+        <item>LOCAL GUARDIAN</item>
+        <item>OUTING</item>
+        <item>HOME TOWN</item>
+    </string-array>
+
+    <string-array name="leave_status_options">
+        <item>Cancelled</item>
+        <item>Approved</item>
+    </string-array>
+
+    <string-array name="mess_options">
+        <item>Zenith</item>
+        <item>SRRC</item>
+    </string-array>
+    <string-array name="food_options">
+        <item>VEG</item>
+        <item>NON-VEG</item>
+        <item>SPECIAL</item>
+    </string-array>
+
+</resources>

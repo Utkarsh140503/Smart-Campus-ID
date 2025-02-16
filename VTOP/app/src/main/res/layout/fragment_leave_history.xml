@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/tvLeaveHistory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Leave History"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="40px"
+        android:layout_marginBottom="40px"
+        android:textStyle="bold"
+        android:padding="40px"
+        android:background="@drawable/blackkwhite"/>
+
+    <ListView
+        android:id="@+id/listLeaveHistory"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/whiteblack"
+        android:padding="30px"
+        android:layout_marginStart="40px"
+        android:layout_marginEnd="40px"
+        android:layout_marginBottom="90px"
+        android:divider="@android:color/black"
+        android:dividerHeight="1dp" />
+
+</LinearLayout>

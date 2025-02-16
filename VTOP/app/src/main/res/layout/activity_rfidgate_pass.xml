@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Title Text for RFID Gate Pass Details -->
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RFID Gate Pass Details"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="16dp" />
+
+    <!-- Check-Out Status Title and Value -->
+    <TextView
+        android:id="@+id/check_out_status_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check-Out Status: "
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:paddingBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/check_out_status_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fetching..."
+        android:textSize="16sp"
+        android:paddingBottom="8dp"/>
+
+    <!-- Checked-In Status Title and Value -->
+    <TextView
+        android:id="@+id/checked_in_status_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Checked-In Status: "
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:paddingBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/checked_in_status_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fetching..."
+        android:textSize="16sp"
+        android:paddingBottom="8dp"/>
+
+    <!-- Checked-Out Date Title and Value -->
+    <TextView
+        android:id="@+id/checked_out_date_titlw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Checked-Out Date: "
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:paddingBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/checked_out_date_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fetching..."
+        android:textSize="16sp"
+        android:paddingBottom="8dp"/>
+
+    <!-- Checked-Out Time Title and Value -->
+    <TextView
+        android:id="@+id/checked_out_time_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Checked-Out Time: "
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:paddingBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/checked_out_time_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fetching..."
+        android:textSize="16sp"
+        android:paddingBottom="8dp"/>
+
+    <!-- Checked-In Date Title and Value -->
+    <TextView
+        android:id="@+id/checked_in_date_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Checked-In Date: "
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:paddingBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/checked_in_date_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fetching..."
+        android:textSize="16sp"
+        android:paddingBottom="8dp"/>
+
+    <!-- Checked-In Time Title and Value -->
+    <TextView
+        android:id="@+id/checked_in_time_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Checked-In Time: "
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:paddingBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/checked_in_time_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fetching..."
+        android:textSize="16sp"
+        android:paddingBottom="8dp"/>
+
+</LinearLayout>

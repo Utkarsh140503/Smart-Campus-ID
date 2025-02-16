@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <!-- TextView to display RFID -->
+    <TextView
+        android:id="@+id/textRFID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Current Payment RFID: "
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"
+        android:layout_alignParentTop="true"
+        android:padding="8dp" />
+
+    <!-- EditText to input total amount -->
+    <EditText
+        android:id="@+id/editTotalAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textRFID"
+        android:hint="Enter Total Amount"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="16dp"
+        android:padding="8dp"
+        android:background="@drawable/border" />
+
+    <!-- Submit Button -->
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTotalAmount"
+        android:layout_centerHorizontal="true"
+        android:text="Submit Payment"
+        android:padding="12dp"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:layout_below="@id/buttonSubmit"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:textAlignment="center"
+        android:id="@+id/label"
+        android:text="Payment History"/>
+
+    <!-- ListView to display payment history -->
+    <ListView
+        android:id="@+id/listPaymentHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/label"
+        android:layout_marginTop="16dp"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp"
+        android:padding="8dp" />
+</RelativeLayout>

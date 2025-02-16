@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/vtopapp"
+    android:gravity="center_horizontal">
+
+    <!-- Top Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="30px"
+        android:layout_marginEnd="30px"
+        android:id="@+id/layout0"
+        android:background="@drawable/whiteblack">
+
+        <ImageView
+            android:id="@+id/imageBox0"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="50px"
+            android:background="@drawable/border"
+            android:src="@drawable/vitlogo" />
+
+        <TextView
+            android:id="@+id/textBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40px"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:text="VIT"
+            android:textSize="36sp"
+            android:background="@drawable/border"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textBox0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(Chennai Campus)"
+            android:padding="20px"
+            android:background="@drawable/border"
+            android:layout_marginStart="30px"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <!-- Registration Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="30px"
+        android:layout_marginEnd="30px"
+        android:background="@drawable/whiteblack">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VTOP Registration"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/editTextEmployeeNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Employee Number"
+            android:inputType="text"
+            android:padding="25px"
+            android:background="@drawable/border"/>
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:inputType="text"
+            android:layout_marginTop="16px"
+            android:padding="25px"
+            android:background="@drawable/border"/>
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:layout_marginTop="16px"
+            android:padding="25px"
+            android:background="@drawable/border"/>
+
+        <ImageView
+            android:id="@+id/imageViewTeacher"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/teacherdefault"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="16dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:contentDescription="Teacher Image"
+            android:background="?android:attr/selectableItemBackground"/>
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/textViewAlreadyRegistered"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already Registered"
+            android:textSize="16sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/textViewGoToHomePage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Go to Home Page"
+            android:textSize="16sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

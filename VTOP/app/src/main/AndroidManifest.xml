@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" /> <!-- <uses-permission -->
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.VTOP"
+        tools:targetApi="31">
+        <activity
+            android:name=".PaymentHistoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StudentAttendanceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AttendanceRFIDHistoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CreditRequestsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ParentDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".ParentLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StudentPaymentHistory"
+            android:exported="false" />
+        <activity
+            android:name=".VendorDashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VendorSignupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VendorLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateCreditRequestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CreditHistoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RFIDGatePassActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StudentAttendanceHistory"
+            android:exported="false" />
+        <activity
+            android:name=".SaveDataInFB"
+            android:exported="false" />
+        <activity
+            android:name=".AttendanceDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EmployeeSendMessageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MessageFromProctorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViewProctorDetailsActivity"
+            android:exported="false" /> <!-- <activity -->
+        <!-- android:name=".SplashActivity" -->
+        <!-- android:exported="false" /> -->
+        <activity
+            android:name=".StartupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViewCredentialsActvity"
+            android:exported="false" />
+        <activity
+            android:name=".ChangePasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MessSelectionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LeaveRequestsDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EmployeeDashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EmployeeRegistrationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EmployeeLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StudentRegistrationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StudentLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/SplashTheme"
+            tools:ignore="DuplicateActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LeaveRequestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OnlineBookingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

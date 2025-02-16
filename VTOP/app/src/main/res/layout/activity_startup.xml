@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/vtopapp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="30px"
+        android:layout_marginEnd="30px"
+        android:id="@+id/layout0"
+        android:background="@drawable/whiteblack">
+
+        <ImageView
+            android:id="@+id/imageBox0"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="50px"
+            android:src="@drawable/vitlogo"
+            android:background="@drawable/border" />
+
+        <TextView
+            android:id="@+id/textBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40px"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:text="VIT"
+            android:textColor="@color/black"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textBox0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(Chennai Campus)"
+            android:textColor="@color/black"
+            android:layout_marginStart="30px"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/dotTextBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="."
+            android:textColor="@color/black"
+            android:layout_marginStart="8dp"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="16dp"
+        android:layout_marginTop="45px"
+        android:id="@+id/layout1"
+        android:layout_marginStart="30px"
+        android:layout_marginEnd="30px"
+        android:background="@drawable/whiteblack">
+
+        <ImageView
+            android:id="@+id/imageBox1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="50px"
+            android:src="@drawable/student" />
+
+        <TextView
+            android:id="@+id/textBox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Student"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginStart="50px" />
+
+        <TextView
+            android:id="@+id/textBox11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login for Students"
+            android:layout_marginStart="40px"
+            android:layout_marginEnd="40px"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:padding="15px"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="16dp"
+        android:id="@+id/layout2"
+        android:layout_marginTop="10px"
+        android:layout_marginStart="30px"
+        android:layout_marginEnd="30px"
+        android:background="@drawable/whiteblack">
+
+        <ImageView
+            android:id="@+id/imageBox2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="50px"
+            android:src="@drawable/employees" />
+
+        <TextView
+            android:id="@+id/textBox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Employee"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginStart="50px" />
+
+        <TextView
+            android:id="@+id/textBox22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login for Employee"
+            android:layout_marginStart="40px"
+            android:layout_marginEnd="40px"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:padding="15px"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="16dp"
+        android:id="@+id/layout3"
+        android:layout_marginTop="10px"
+        android:layout_marginStart="30px"
+        android:layout_marginEnd="30px"
+        android:background="@drawable/whiteblack">
+
+        <ImageView
+            android:id="@+id/imageBox3"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="50px"
+            android:src="@drawable/parents" />
+
+        <TextView
+            android:id="@+id/textBox3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Parent"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginStart="50px" />
+
+        <TextView
+            android:id="@+id/textBox33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login for Parent"
+            android:layout_marginStart="40px"
+            android:layout_marginEnd="40px"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:padding="15px"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="16dp"
+        android:id="@+id/layout4"
+        android:layout_marginTop="10px"
+        android:layout_marginStart="30px"
+        android:layout_marginEnd="30px"
+        android:background="@drawable/whiteblack">
+
+        <ImageView
+            android:id="@+id/imageBox4"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="50px"
+            android:src="@drawable/alumni" />
+
+        <TextView
+            android:id="@+id/textBox4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vendor"
+            android:textSize="26sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginStart="50px" />
+
+        <TextView
+            android:id="@+id/textBox44"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login for Vendor"
+            android:textColor="@color/black"
+            android:layout_marginStart="40px"
+            android:layout_marginEnd="40px"
+            android:textSize="16sp"
+            android:padding="15px"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@android:color/white"
+        android:dividerHeight="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="30px"
+        android:layout_marginEnd="30px"
+        android:layout_marginBottom="50px"
+        android:padding="20px"
+        android:background="@drawable/whiteblack" />
+
+</LinearLayout>

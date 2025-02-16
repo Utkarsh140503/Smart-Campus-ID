@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <!-- Student RFID -->
+    <TextView
+        android:id="@+id/textStudentRFID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RFID: Not Available"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"
+        android:padding="8dp" />
+
+    <!-- Payment History Title -->
+    <TextView
+        android:id="@+id/textPaymentHistoryTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Payment History"
+        android:textSize="20sp"
+        android:layout_below="@id/textStudentRFID"
+        android:padding="8dp"
+        android:layout_marginBottom="8dp"
+        android:textStyle="bold" />
+
+    <!-- ListView for Payment History -->
+    <ListView
+        android:id="@+id/listPaymentHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textPaymentHistoryTitle"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp"
+        android:padding="8dp" />
+</RelativeLayout>

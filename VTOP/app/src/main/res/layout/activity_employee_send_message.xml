@@ -1,0 +1,101 @@
+<!-- activity_employee_send_message.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".EmployeeSendMessageActivity"
+    android:background="@drawable/vtopapp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="30px"
+        android:layout_marginEnd="30px"
+        android:id="@+id/layout0"
+        android:background="@drawable/whiteblack">
+
+        <ImageView
+            android:id="@+id/imageBox0"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="50px"
+            android:background="@drawable/border"
+            android:src="@drawable/vitlogo" />
+
+        <TextView
+            android:id="@+id/textBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40px"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:text="VIT"
+            android:textColor="@color/black"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textBox0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(Chennai Campus)"
+            android:layout_marginStart="30px"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/editTextStudentID"
+        android:layout_width="match_parent"
+        android:background="@drawable/whiteblack"
+        android:padding="40px"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:hint="Enter Student ID"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="50px"
+        android:layout_marginLeft="50px"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/searchButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/editTextMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Message"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/whiteblack"
+        android:padding="30px"
+        android:textStyle="bold"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:layout_marginRight="50px"
+        android:layout_marginLeft="50px"
+        android:lines="5"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/sendButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:enabled="false" />
+
+</LinearLayout>

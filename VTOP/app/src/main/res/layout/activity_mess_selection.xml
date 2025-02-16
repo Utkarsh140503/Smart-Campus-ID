@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/vtopapp">
+
+    <TextView
+        android:id="@+id/tvHeading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:padding="30px"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:background="@drawable/blackkwhite"
+        android:text="Mess Selection 2023 - 24"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="30px"
+        android:text="Caterer:"
+        android:textColor="@color/black"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/whiteblack"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spinnerMess"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/mess_options"
+        android:padding="30px"
+        android:layout_marginTop="30px"
+        android:background="@drawable/whiteblack"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Food Preference:"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:padding="30px"
+        android:textColor="@color/black"
+        android:layout_marginTop="30px"
+        android:background="@drawable/whiteblack"/>
+
+    <Spinner
+        android:id="@+id/spinnerFoodPreference"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/food_options"
+        android:padding="30px"
+        android:layout_marginTop="30px"
+        android:background="@drawable/whiteblack"/>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80px"
+        android:textSize="20dp"
+        android:padding="30px"
+        android:text="Submit"
+        android:layout_gravity="center"
+        android:background="@drawable/white_background"/>
+
+    <TextView
+        android:id="@+id/txtSelectedData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40px"
+        android:padding="30px"
+        android:textColor="@color/white"
+        android:background="@drawable/blackkwhite"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:visibility="gone"/>
+
+</LinearLayout>

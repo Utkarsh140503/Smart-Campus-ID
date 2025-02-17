@@ -4,6 +4,8 @@
 
 The **Smart Campus ID System** is a cutting-edge solution designed to enhance student identification, attendance tracking, and campus security using **NFC, GPS, and mobile payment systems**. This all-in-one platform streamlines administrative tasks and improves student safety while ensuring seamless operations.  
 
+![Hardware](ScreenShot/Hardware.png)  
+
 ## 🔥 Features  
 
 ### 🎓 Student Features  

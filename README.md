@@ -25,7 +25,7 @@ The **Smart Campus ID System** is a cutting-edge solution designed to enhance st
 
 Click the button below to download the latest version of **Smart Campus ID System**:  
 
-[![Download Smart Campus ID](https://img.shields.io/badge/Download-SmartCampusID-brightgreen?style=for-the-badge&logo=android)](https://drive.google.com/file/d/1yn5bLZqD3zFX5DUGhso12b54tA_Hkcc9/view?usp=sharing)  
+[![Download Smart Campus ID](https://img.shields.io/badge/Download-SmartCampusID-brightgreen?style=for-the-badge&logo=android)](https://github.com/Utkarsh140503/Smart-Campus-ID/blob/main/SmartCampusID.apk)  
 
 ## 📸 Screenshots  
 
